@@ -124,21 +124,71 @@ li a:hover:not(.active) {
 }
 
 .fb{
+  border-radius: 50%;
   max-width:10%;
   margin-right:3%;
 }
 
 .tt{
+  border-radius: 50%;
   max-width:10%;
   margin-right:3%;
 }
 
 .insta{
+  border-radius: 50%;
   max-width:10%;
   margin-right:3%;
 }
 
 .github{
+  border-radius:50%;
   max-width:10%;
   margin-right:3%;
+}
+
+#compbar {
+  margin-right:2%;
+  margin-left:10%;
+  width: 80%;
+  height: 30px;
+  background-color: rgba(255,255,255,0.2);
+}
+
+#bar {
+  width: 0%;
+  height: 30px;
+  background-color:#1B2326;
+}
+
+.myfb{
+  border-radius:50%;
+  max-width:10%;
+  margin-right:3%;
+  opacity: 0;
+}
+
+.mytt{
+  border-radius:50%;
+  max-width: 10%;
+  margin-right:3%;
+  opacity: 0;
+}
+
+.mycont{
+  opacity: 0;
+}
+
+.myinsta{
+  border-radius:50%;
+  max-width: 10%;
+  margin-right: 3%;
+  opacity: 0;
+}
+
+.mygithub{
+  border-radius:50%;
+  max-width:10%;
+  margin-right:3%;
+  opacity: 0;
 }

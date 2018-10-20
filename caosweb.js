@@ -37,11 +37,25 @@
  }
 
 function errada(){
+  const fb = document.getElementsByClassName ("myfb");
+  const tt = document.getElementsByClassName ("mytt");
+  const insta = document.getElementsByClassName ("myinsta");
+  const git = document.getElementsByClassName ("mygithub");
+  const cont = document.getElementsByClassName ("mycont");
+  document.getElementById("fblink").removeAttribute("href");
+  document.getElementById ("ttlink").removeAttribute("href");
+  document.getElementById ("instalink").removeAttribute("href");
+  document.getElementById ("gitlink").removeAttribute("href");
+  fb[0].style.opacity = "0";
+  tt[0].style.opacity = "0";
+  insta[0].style.opacity = "0";
+  git[0].style.opacity = "0";
+  cont[0].style.opacity = "0";
+  document.getElementById("bar").style.opacity = "0";
   alert ("Resposta Errada!");
 }
 
 function certa (){
-  document.getElementById("compbar").style.opacity = "rgba(255,255,255,0)";
   document.getElementById("bar").style.opacity = "1";
   barra ();
 }

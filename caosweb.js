@@ -36,3 +36,12 @@
    } 
  }
 
+function errada(){
+  alert ("Resposta Errada!");
+}
+
+function certa (){
+  document.getElementById("compbar").style.opacity = "rgba(255,255,255,0)";
+  document.getElementById("bar").style.opacity = "1";
+  barra ();
+}

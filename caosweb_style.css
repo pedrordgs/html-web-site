@@ -194,3 +194,10 @@ li a:hover:not(.active) {
   margin-right:3%;
   opacity: 0;
 }
+
+#pergunta{
+  border-style: solid;
+  margin-right:15%;
+  margin-left: 15%;
+  border-color:#1B2326;
+}
